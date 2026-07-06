@@ -1,157 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ihsan Al-Sakran - CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <center>
+    <div class="page">
+
+        <header class="sidebar">
             <h1>Ihsan Al-Sakran</h1>
             <h2>Flutter &amp; Mobile Developer | Software Engineer</h2>
-        </center>
-        <section>
-            <h3>Contact Information</h3>
-            <ul>
+
+            <p class="eyebrow">// contact</p>
+            <ul class="contact-list">
                 <li>Email: <a href="mailto:ihsanoov34@gmail.com">ihsanoov34@gmail.com</a></li>
                 <li>Phone: <a href="tel:+962799277296">+962 799277296</a></li>
                 <li>Location: Irbid, Jordan</li>
                 <li>LinkedIn: <a href="https://linkedin.com/in/ihsan-alsakran-3165a4307" target="_blank">linkedin.com/in/ihsan-alsakran-3165a4307</a></li>
             </ul>
-        </section>
-    </header>
 
-    <main>
+            <p class="eyebrow">// core stack</p>
+            <div class="chip-row">
+                <span class="chip">Flutter</span>
+                <span class="chip">Dart</span>
+                <span class="chip">FastAPI</span>
+                <span class="chip">Python</span>
+                <span class="chip">Git</span>
+            </div>
+        </header>
 
-        <section>
-            <h3>About Me / Summary</h3>
-            <p>
-                Software Engineering graduate from Jordan University of Science and Technology (JUST), class of 2026.
-                Flutter developer passionate about building modern, user-friendly mobile applications.
-                Currently enrolled in the 42 Irbid Common Core Program, strengthening algorithmic thinking, data structures,
-                and low-level programming skills through peer-to-peer project-based learning.
-            </p>
-        </section>
-
-        <section>
-            <h3>Skills</h3>
+        <main>
 
             <section>
-                <h4>Mobile Development</h4>
-                <ul>
-                    <li>Flutter</li>
-                    <li>Dart</li>
-                </ul>
+                <p class="eyebrow">// about</p>
+                <h3>About Me / Summary</h3>
+                <p class="summary-text">
+                    Software Engineering graduate from Jordan University of Science and Technology (JUST), class of 2026.
+                    Flutter developer passionate about building modern, user-friendly mobile applications.
+                    Currently enrolled in the 42 Irbid Common Core Program, strengthening algorithmic thinking, data structures,
+                    and low-level programming skills through peer-to-peer project-based learning.
+                </p>
             </section>
 
             <section>
-                <h4>Programming Languages</h4>
-                <ul>
-                    <li>Python</li>
-                    <li>JavaScript</li>
-                    <li>C, C++</li>
-                    <li>Java and C#</li>
-                </ul>
+                <p class="eyebrow">// skills</p>
+                <h3>Skills</h3>
+
+                <div class="skill-group">
+                    <h4>Mobile Development</h4>
+                    <ul>
+                        <li>Flutter</li>
+                        <li>Dart</li>
+                    </ul>
+                </div>
+
+                <div class="skill-group">
+                    <h4>Programming Languages</h4>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>C, C++</li>
+                        <li>Java and C#</li>
+                    </ul>
+                </div>
+
+                <div class="skill-group">
+                    <h4>Backend &amp; Databases</h4>
+                    <ul>
+                        <li>FastAPI</li>
+                        <li>Oracle Database</li>
+                        <li>MySQL Server Database</li>
+                    </ul>
+                </div>
+
+                <div class="skill-group">
+                    <h4>Computer Science</h4>
+                    <ul>
+                        <li>Data Structures</li>
+                        <li>Algorithms</li>
+                        <li>Git / GitHub</li>
+                    </ul>
+                </div>
             </section>
 
             <section>
-                <h4>Backend &amp; Databases</h4>
-                <ul>
-                    <li>FastAPI</li>
-                    <li>Oracle Database</li>
-                    <li>MySQL Server Database</li>
-                </ul>
+                <p class="eyebrow">// experience</p>
+                <h3>Work Experience</h3>
+
+                <article>
+                    <h4>Common Core Student</h4>
+                    <p class="entry-meta"><em>42 Irbid</em> <span class="dates">Oct 2025 – Present</span></p>
+                    <ul>
+                        <li>Participating in a rigorous peer-to-peer, project-based coding curriculum modeled after École 42.</li>
+                        <li>Strengthening problem-solving skills through hands-on projects in C, algorithms, and data structures.</li>
+                        <li>Performing peer code reviews and collaborating in a self-directed learning environment.</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h4>HR Volunteer</h4>
+                    <p class="entry-meta"><em>Ghirass Volunteering Team</em> <span class="dates">2023 – 2024</span></p>
+                    <ul>
+                        <li>Organized volunteer community activities and coordinated team members.</li>
+                        <li>Developed leadership, communication, and teamwork skills.</li>
+                    </ul>
+                </article>
             </section>
 
             <section>
-                <h4>Computer Science</h4>
-                <ul>
-                    <li>Data Structures</li>
-                    <li>Algorithms</li>
-                    <li>Git / GitHub</li>
-                </ul>
+                <p class="eyebrow">// education</p>
+                <h3>Education</h3>
+
+                <article>
+                    <h4>B.Sc. Software Engineering</h4>
+                    <p class="entry-meta"><em>Jordan University of Science and Technology (JUST)</em> <span class="dates">Oct 2022 – Jun 2026</span></p>
+                    <ul>
+                        <li>Graduated in June 2026.</li>
+                        <li>GPA: 3.55 / 4.0 — Excellent standing.</li>
+                        <li>Dean's Honor List — final semester.</li>
+                        <li>Coursework: Software Architecture, Algorithms, Mobile Development, Databases, Systems Design.</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h4>Tawjihi — Scientific Stream</h4>
+                    <p class="entry-meta"><em>General Secondary Certificate</em> <span class="dates">2022</span></p>
+                    <ul>
+                        <li>Graduated with a score of 92.85% — Scientific Stream.</li>
+                    </ul>
+                </article>
             </section>
-        </section>
 
-        <section>
-            <h3>Work Experience</h3>
+            <section>
+                <p class="eyebrow">// projects</p>
+                <h3>Projects</h3>
 
-            <article>
-                <h4>Common Core Student</h4>
-                <p><em>42 Irbid</em> — Oct 2025 – Present</p>
-                <ul>
-                    <li>Participating in a rigorous peer-to-peer, project-based coding curriculum modeled after École 42.</li>
-                    <li>Strengthening problem-solving skills through hands-on projects in C, algorithms, and data structures.</li>
-                    <li>Performing peer code reviews and collaborating in a self-directed learning environment.</li>
-                </ul>
-            </article>
+                <article>
+                    <h4>Learno — Smart Educational Tutor App</h4>
+                    <p class="entry-meta"><em>Flutter · FastAPI · Python · STT/TTS · Firebase</em> <span class="dates">2024 – 2025</span></p>
+                    <ul>
+                        <li>Built a voice-interactive mobile tutor for children grades K–4 using Flutter (Dart) and FastAPI.</li>
+                        <li>Implemented adaptive difficulty adjustment based on real-time performance tracking.</li>
+                        <li>Integrated Speech-to-Text and Text-to-Speech engines for natural voice-based learning interaction.</li>
+                        <li>Designed a child-friendly UI with smooth animations and intuitive navigation.</li>
+                    </ul>
+                </article>
 
-            <article>
-                <h4>HR Volunteer</h4>
-                <p><em>Ghirass Volunteering Team</em> — 2023 – 2024</p>
-                <ul>
-                    <li>Organized volunteer community activities and coordinated team members.</li>
-                    <li>Developed leadership, communication, and teamwork skills.</li>
-                </ul>
-            </article>
-        </section>
+                <article>
+                    <h4>42 Irbid Common Core Projects</h4>
+                    <p class="entry-meta"><em>C · Algorithms · Unix · Shell</em> <span class="dates">2025 – Present</span></p>
+                    <ul>
+                        <li>Completing a series of progressively challenging systems-programming projects in C.</li>
+                        <li>Projects cover memory management, shell scripting, file I/O, and algorithmic problem solving.</li>
+                    </ul>
+                </article>
+            </section>
 
-        <section>
-            <h3>Education</h3>
+        </main>
 
-            <article>
-                <h4>B.Sc. Software Engineering</h4>
-                <p><em>Jordan University of Science and Technology (JUST)</em> — Oct 2022 – Jun 2026</p>
-                <ul>
-                    <li>Graduated in June 2026.</li>
-                    <li>GPA: 3.55 / 4.0 — Excellent standing.</li>
-                    <li>Dean's Honor List — final semester.</li>
-                    <li>Coursework: Software Architecture, Algorithms, Mobile Development, Databases, Systems Design.</li>
-                </ul>
-            </article>
-
-            <article>
-                <h4>Tawjihi — Scientific Stream</h4>
-                <p><em>General Secondary Certificate</em> — 2022</p>
-                <ul>
-                    <li>Graduated with a score of 92.85% — Scientific Stream.</li>
-                </ul>
-            </article>
-        </section>
-
-        <section>
-            <h3>Projects</h3>
-
-            <article>
-                <h4>Learno — Smart Educational Tutor App</h4>
-                <p><em>Flutter · FastAPI · Python · STT/TTS · Firebase</em> — 2024 – 2025</p>
-                <ul>
-                    <li>Built a voice-interactive mobile tutor for children grades K–4 using Flutter (Dart) and FastAPI.</li>
-                    <li>Implemented adaptive difficulty adjustment based on real-time performance tracking.</li>
-                    <li>Integrated Speech-to-Text and Text-to-Speech engines for natural voice-based learning interaction.</li>
-                    <li>Designed a child-friendly UI with smooth animations and intuitive navigation.</li>
-                </ul>
-            </article>
-
-            <article>
-                <h4>42 Irbid Common Core Projects</h4>
-                <p><em>C · Algorithms · Unix · Shell</em> — 2025 – Present</p>
-                <ul>
-                    <li>Completing a series of progressively challenging systems-programming projects in C.</li>
-                    <li>Projects cover memory management, shell scripting, file I/O, and algorithmic problem solving.</li>
-                </ul>
-            </article>
-        </section>
-
-    </main>
+    </div>
 
     <footer>
-        <p>
-            <a href="mailto:ihsanoov34@gmail.com">ihsanoov34@gmail.com</a> •
-            <a href="tel:+962799277296">+962 799277296</a> •
-            Irbid, Jordan •
-            <a href="https://linkedin.com/in/ihsan-alsakran-3165a4307" target="_blank">linkedin.com/in/ihsan-alsakran-3165a4307</a>
-        </p>
+        <a href="mailto:ihsanoov34@gmail.com">ihsanoov34@gmail.com</a>
+        <span class="footer-sep">•</span>
+        <a href="tel:+962799277296">+962 799277296</a>
+        <span class="footer-sep">•</span>
+        Irbid, Jordan
+        <span class="footer-sep">•</span>
+        <a href="https://linkedin.com/in/ihsan-alsakran-3165a4307" target="_blank">linkedin.com/in/ihsan-alsakran-3165a4307</a>
     </footer>
 
 </body>
