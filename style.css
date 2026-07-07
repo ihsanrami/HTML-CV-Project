@@ -276,10 +276,6 @@ article li:last-child {
   font-size: 0.95rem;
 }
 
-/* -----------------------------------------------------------
-   Footer
-   ----------------------------------------------------------- */
-
 footer {
   background: var(--navy);
   color: #cbd5e1;
@@ -300,8 +296,6 @@ footer a:hover {
   color: var(--sky);
   margin: 0 8px;
 }
-
-
 
 @media (max-width: 860px) {
   .page {
@@ -324,22 +318,5 @@ footer a:hover {
   .entry-meta {
     flex-direction: column;
     gap: 2px;
-  }
-}
-
-@media (max-width: 480px) {
-  .sidebar h1 {
-    font-size: 1.5rem;
-  }
-
-  main > section {
-    padding: 20px 18px;
-  }
-}
-
-/* Respect reduced-motion preference */
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
   }
 }
